@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+img {
+    @apply w-full h-full object-cover object-center;
+}
+
+.feature-card img {
+    @apply w-12 h-12;
+}
+body {
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    background-position: center;
+  }
